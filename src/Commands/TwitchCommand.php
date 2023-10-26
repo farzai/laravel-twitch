@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Farzai\Twitch\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TwitchCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'twitch';
 
     public $description = 'My command';
 
