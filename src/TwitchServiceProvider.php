@@ -16,7 +16,6 @@ class TwitchServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('twitch')
-            ->hasConfigFile('twitch')
-        ;
+            ->hasConfigFile('twitch');
     }
 }

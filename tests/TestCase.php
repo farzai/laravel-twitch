@@ -2,9 +2,9 @@
 
 namespace Farzai\Twitch\Tests;
 
+use Farzai\Twitch\TwitchServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Farzai\Twitch\TwitchServiceProvider;
 
 class TestCase extends Orchestra
 {
